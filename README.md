@@ -3,7 +3,7 @@
 
 This implementation is on a research paper "Tuberculosis (TB) detection system using deep neural networks" https://link.springer.com/article/10.1007/s00521-018-3564-4
 
-A Keras implementation of **VGG19-SVM model** to predict tuberculosis from microscopic images
+A Keras implementation of **VGG19-SVM model** to predict tuberculosis bacilli from microscopic images
 
 **fine_tune_model.ipynb** contains the code to fine tune the VGG19 model which is trained on imagenet dataset for the tuberculosius dataset. The softmax layer is removed and replaced with another softmax layer with two classes. Either 0 or 1. Whether the given microscopic image of sample has or doesnt have mTB bacilli. This finetuned model 
 
